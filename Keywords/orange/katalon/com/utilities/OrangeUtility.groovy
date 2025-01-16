@@ -18,10 +18,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
-public class OrangeUtility {
-	
+class OrangeUtility {
+
 	/**
-	 * Validate if the text of a web element matches the expected value.
+	 * Validating if the text of a web element matches the expected value.
 	 * @param testObject - The Test Object of the web element
 	 * @param expectedText - The expected text value
 	 * @return boolean - true if the text matches, false otherwise
@@ -37,5 +37,23 @@ public class OrangeUtility {
 			return false
 		}
 	}
-	
+
+	/**
+	 * Validating if the text of a web element not empty.
+	 * @param testObject - The Test Object of the web element
+	 * @return boolean - true if the text matches, false otherwise
+	 */
+	@Keyword
+	def boolean isTextEmpty(TestObject testObject) {
+
+		String actualText = WebUI.getAttribute(testObject, 'value')
+
+		if (actualText != '') {
+			WebUI.comment("Validation failed: Text has value '${actualText}'")
+			return false
+		} else {
+			WebUI.comment("Validation passed: Text has no value '${actualText}'")
+			return true
+		}
+	}
 }

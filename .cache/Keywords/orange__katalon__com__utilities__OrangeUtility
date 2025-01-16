@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "06BF8604228F5ECD214DB21B2177C506",
+  "keywordFileContentHash": "1F3F063219547E6467C6ABE8E676AF59",
   "keywordClasses": [
     {
       "name": "orange.katalon.com.utilities.OrangeUtility",
@@ -26,6 +26,24 @@
               "type": {
                 "fullClassName": "java.lang.String",
                 "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "isTextEmpty",
+          "parameters": [
+            {
+              "name": "testObject",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
                 "isArray": false,
                 "isGnericsPlaceHolder": false,
                 "hasImmutableClassName": false,
