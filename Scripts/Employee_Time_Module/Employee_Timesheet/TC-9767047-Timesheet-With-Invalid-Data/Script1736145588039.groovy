@@ -52,9 +52,9 @@ WebUI.comment('Navigating to the Time module')
 WebUI.click(findTestObject('Object Repository/Employee_Time_Module/Timesheet-InValid-Data/Page_OrangeHRM/a_Time'))
 
 // Expand the Timesheets dropdown
-WebUI.comment('Expanding the Timesheets dropdown')
+//WebUI.comment('Expanding the Timesheets dropdown')
 
-WebUI.click(findTestObject('Object Repository/Employee_Time_Module/Timesheet-InValid-Data/Page_OrangeHRM/i_Timesheets_oxd-icon bi-chevron-down'))
+//WebUI.click(findTestObject('Object Repository/Employee_Time_Module/Timesheet-InValid-Data/Page_OrangeHRM/i_Timesheets_oxd-icon bi-chevron-down'))
 
 // Select "My Timesheets" from the dropdown
 WebUI.comment('Selecting "My Timesheets"')
@@ -127,7 +127,8 @@ if (isElementPresent) {
 
     KeywordUtil.markFailed('Invalid data error message EXIST')
 
-    println('Invalid data error message: ' + text) // If element does not exist, log the absence
+    println('Invalid data error message: ' + text // If element does not exist, log the absence
+        )
 } else {
     WebUI.comment('No error message found')
 

@@ -62,6 +62,25 @@ if (WebUI.verifyElementPresent(findTestObject('Object Repository/Employee_Time_M
     WebUI.click(findTestObject('Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Edit'))
 }
 
+WebUI.delay(2)
+
+TestObject inputBox1 = new TestObject()
+
+inputBox1.addProperty('xpath', com.kms.katalon.core.testobject.ConditionType.EQUALS, '(//input[@class=\'oxd-input oxd-input--active\' and @autocomplete=\'off\'])[3]')
+
+String txtx1 = WebUI.getAttribute(findTestObject('Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/input'), 
+    'value')
+
+if (txtx1 != '') {
+    WebUI.clearText(findTestObject('Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/input'))
+}
+
+WebUI.delay(10)
+
+//getText(findTestObject('Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/input'))
+//String txtx1 = WebUI.getText(findTestObject('Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/input'))
+WebUI.delay(2)
+
 /*
 else if (WebUI.verifyElementPresent(findTestObject('Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Edit'), 2, FailureHandling.OPTIONAL)) {
 	// Check if the 'Edit' button exists
@@ -77,6 +96,27 @@ WebUI.delay(2)
 //WebUI.click(findTestObject('Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/button_Edit'))
 //WebUI.delay(2)
 WebUI.setText(findTestObject('Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/input'), '')
+
+WebUI.delay(3)
+
+//	WebUI.setText(inputBox, '8')
+String txtx = WebUI.getText(findTestObject('Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/input'))
+
+println(txtx)
+
+WebUI.delay(2)
+
+// Clear the input field
+//WebUI.clearText(findTestObject('Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/input'))
+// Simulate "Ctrl + A" (Select All) and "Backspace" to clear the text
+// Use Keys.chord to pass a valid string to sendKeys()
+//WebUI.sendKeys(findTestObject('Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/input'), Keys.chord(
+//        Keys.CONTROL, 'a', Keys.BACK_SPACE))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/input'), Keys.chord(
+        Keys.COMMAND, 'a', Keys.DELETE))
 
 WebUI.delay(2)
 

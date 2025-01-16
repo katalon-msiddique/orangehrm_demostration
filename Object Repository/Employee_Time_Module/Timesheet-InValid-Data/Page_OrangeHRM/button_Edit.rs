@@ -6,12 +6,12 @@
    <elementGuidId>6c640d2c-355a-43e0-ac92-ab204817c7ae</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[5]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.oxd-button.oxd-button--medium.oxd-button--ghost</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button' and contains(@class, 'oxd-button--ghost') and text()='Edit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=button[name=&quot;Edit&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>45bf720d-9574-40c4-a4c7-c3b7fee0f5f2</webElementGuid>
+      <webElementGuid>0c96ba20-fa8b-47f1-a00a-a2db4cc531d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ece1d488-4a22-4192-9fa1-8786caf58faf</webElementGuid>
+      <webElementGuid>87198fd3-3452-4035-a958-98900d6bec20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-button oxd-button--medium oxd-button--ghost</value>
-      <webElementGuid>70e7ebe1-1590-40af-af5a-12ba0f715fd4</webElementGuid>
+      <webElementGuid>0774d7d0-80f0-47e9-9cab-998c5ab8a36a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Edit </value>
-      <webElementGuid>a9102a32-5aac-4831-bf32-8d09c549bf6c</webElementGuid>
+      <webElementGuid>79fe2016-269c-460a-a574-65ffd2f23938</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/form[@class=&quot;oxd-form orangehrm-paper-container&quot;]/div[@class=&quot;orangehrm-timesheet-footer&quot;]/div[@class=&quot;orangehrm-timesheet-footer--options&quot;]/button[@class=&quot;oxd-button oxd-button--medium oxd-button--ghost&quot;]</value>
-      <webElementGuid>525ec5e9-e499-408c-986b-21e874ef0e58</webElementGuid>
+      <webElementGuid>9d25d7f4-42a8-4b40-801c-8f2c30cd3483</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>0bf9e050-e52d-47ea-a0d5-cbe90677a9a0</webElementGuid>
+      <webElementGuid>7eef1903-5cd9-4c55-bd32-346ddd314b1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/form/div[3]/div[2]/button</value>
-      <webElementGuid>a038e19a-3d84-426b-8234-d0da3b5ed98a</webElementGuid>
+      <webElementGuid>ee2afdcf-7c9c-4fb2-a274-f019ca87c134</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No Records Found'])[1]/following::button[1]</value>
-      <webElementGuid>f411cccf-6881-4dbf-9488-6d901b93c35d</webElementGuid>
+      <webElementGuid>29b233c6-a0d8-45b0-9f7a-15a3052a6333</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/following::button[1]</value>
-      <webElementGuid>74b22617-efe5-4309-a8aa-f64915209e4e</webElementGuid>
+      <webElementGuid>2424d813-2774-49ed-83e2-1efb9da70c72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OrangeHRM, Inc'])[1]/preceding::button[2]</value>
-      <webElementGuid>db1217ab-c184-4087-b792-20c3654a0af9</webElementGuid>
+      <webElementGuid>5346bfbc-8cf8-4854-85b7-a269129c037d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Edit']/parent::*</value>
-      <webElementGuid>5ce0277f-bbc5-429e-b4c9-27f41d786535</webElementGuid>
+      <webElementGuid>5068c9a3-2372-4216-b178-825e57e66f7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button</value>
-      <webElementGuid>7139bf57-b288-456b-b459-5eb4aae4603a</webElementGuid>
+      <webElementGuid>59d37286-54a9-4234-b5ed-15f62083bee6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = ' Edit ' or . = ' Edit ')]</value>
-      <webElementGuid>f84a5344-5fc0-4d8f-b365-6c6f5151cc69</webElementGuid>
+      <webElementGuid>3399c2c1-860b-48ab-8773-5a99dc89c1f1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
