@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to Timesheet Submission page on Orange HRM
+Select employee for timesheet submission
+Fill in 'Date' field with valid data
+Fill in 'Hours Worked' field with valid data
+Fill in 'Description' field with valid data
+Submit the timesheet after filling all required fields</description>
+   <name>TC-9767045-Timesheet-With-Valid-and-Required-Field - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>05f370ff-6226-4765-94e1-fb57ca5fdbb0</testCaseGuid>
+</TestCaseEntity>

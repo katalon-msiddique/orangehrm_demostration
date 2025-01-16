@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Error message displayed for invalid date format.
+
+Steps
+------
+Navigate to the timesheet submission page
+Select the employee for whom the timesheet is being submitted
+Enter invalid hours worked
+Enter invalid date format
+Leave required fields blank
+Submit the timesheet</description>
+   <name>TC-9767047-Timesheet-With-Invalid-Data</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ae7230bc-1db8-4875-9412-1c2fff1a5dab</testCaseGuid>
+</TestCaseEntity>
