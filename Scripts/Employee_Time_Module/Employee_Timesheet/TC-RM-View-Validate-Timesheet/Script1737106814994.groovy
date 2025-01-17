@@ -19,25 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.navigateToUrl('http://orange.katalon.com/web/index.php/auth/login')
 
-WebUI.setText(findTestObject('Object Repository/Employee_Time_Module/PunchIn/Page_OrangeHRM/input_Username_username'), Employee_Username)
+WebUI.setText(findTestObject('Object Repository/Employee_Time_Module/Timesheet-View-Validate/Page_OrangeHRM/input_Username_username'), 
+    'mahtab')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Employee_Time_Module/PunchIn/Page_OrangeHRM/input_Password_password'), 
-    Employee_Password)
+WebUI.setEncryptedText(findTestObject('Object Repository/Employee_Time_Module/Timesheet-View-Validate/Page_OrangeHRM/input_Password_password'), 
+    'p7egalF197zCPQnMaznrNq5yBULcTkKN')
 
-WebUI.click(findTestObject('Object Repository/Employee_Time_Module/PunchIn/Page_OrangeHRM/button_Login'))
+WebUI.sendKeys(findTestObject('Object Repository/Employee_Time_Module/Timesheet-View-Validate/Page_OrangeHRM/input_Password_password'), 
+    Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Employee_Time_Module/PunchIn/Page_OrangeHRM/a_Time'))
+WebUI.click(findTestObject('Object Repository/Employee_Time_Module/Timesheet-View-Validate/Page_OrangeHRM/a_Time'))
 
-WebUI.click(findTestObject('Object Repository/Employee_Time_Module/PunchIn/Page_OrangeHRM/i_Attendance_oxd-icon bi-chevron-down'))
+WebUI.click(findTestObject('Object Repository/Employee_Time_Module/Timesheet-View-Validate/Page_OrangeHRM/button_View'))
 
-WebUI.click(findTestObject('Object Repository/Employee_Time_Module/PunchIn/Page_OrangeHRM/a_Punch InOut'))
+WebUI.verifyElementText(findTestObject('Object Repository/Employee_Time_Module/Timesheet-View-Validate/Page_OrangeHRM/p_Status Submitted'), 
+    'Status: Submitted')
 
-WebUI.setText(findTestObject('Object Repository/Employee_Time_Module/PunchIn/Page_OrangeHRM/textarea_Note_oxd-textarea oxd-textarea--fo_bc10e6'), 
-    'Punch-out for the day. Completed today’s tasks.')
-
-WebUI.click(findTestObject('Object Repository/Employee_Time_Module/PunchIn/Page_OrangeHRM/button_In'))
-
-WebUI.delay(2)
+WebUI.closeBrowser()
 

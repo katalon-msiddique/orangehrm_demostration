@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>%Users%mahtabsiddique%git%orange%orangeHRM_Automation%OrangeHRM_Automation.prj</name>
+	<name>%Users%mahtabsiddique%git%orangehrm_demostration%OrangeHRM_Automation.prj</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -17,7 +17,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1736842542346</id>
+			<id>1737115362321</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -26,7 +26,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1736842542347</id>
+			<id>1737115362323</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -35,7 +35,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1737005209146</id>
+			<id>1737128912202</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
@@ -44,7 +44,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1737006551242</id>
+			<id>1737128969466</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -53,7 +53,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1737006551244</id>
+			<id>1737128969471</id>
 			<name></name>
 			<type>6</type>
 			<matcher>

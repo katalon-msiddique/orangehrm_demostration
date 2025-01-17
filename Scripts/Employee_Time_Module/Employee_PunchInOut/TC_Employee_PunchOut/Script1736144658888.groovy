@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://10.100.36.234/web/index.php/auth/login')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.setText(findTestObject('Object Repository/Employee_Time_Module/PunchIn/Page_OrangeHRM/input_Username_username'), Employee_Username)
 

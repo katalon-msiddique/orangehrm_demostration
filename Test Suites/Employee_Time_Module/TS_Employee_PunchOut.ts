@@ -20,8 +20,8 @@
          <combinationType>ONE</combinationType>
          <id>f12d4ce4-7faf-48af-99cb-c72a7cf5dbe4</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-5</value>
          </iterationEntity>
          <testDataId>Data Files/Employee_Onboarding/Employee_Date</testDataId>
       </testDataLink>

@@ -6,34 +6,34 @@ Fill in 'Date' field with valid data
 Fill in 'Hours Worked' field with valid data
 Fill in 'Description' field with valid data
 Submit the timesheet after filling all required fields</description>
-   <name>TC-9767045-Timesheet-With-Valid-and-Required-Field</name>
+   <name>TC-9767047-Timesheet-With-InValid-on-Required-Field</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>d5b84f99-173f-419f-b114-c99cc0eb2593</testCaseGuid>
+   <testCaseGuid>151c2370-200e-469b-b4cd-f6b13d700b99</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>1aa41f16-a87a-446d-ac58-828f80bfaaf2</variableId>
+      <variableId>d7a2d0d7-3471-43d5-9b1e-56419e2ce140</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>986146b1-d676-4a3a-9ec1-017e9b01ff20</variableId>
+      <variableId>c8ef9dd2-9637-4789-a1a4-fe81d314f5de</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'amy.gonzalez'</defaultValue>
+      <defaultValue>'jeremy.jones'</defaultValue>
       <description></description>
-      <id>1aa41f16-a87a-446d-ac58-828f80bfaaf2</id>
+      <id>d7a2d0d7-3471-43d5-9b1e-56419e2ce140</id>
       <masked>false</masked>
       <name>UserName</name>
    </variable>
    <variable>
       <defaultValue>'p7egalF197zCPQnMaznrNq5yBULcTkKN'</defaultValue>
       <description></description>
-      <id>986146b1-d676-4a3a-9ec1-017e9b01ff20</id>
+      <id>c8ef9dd2-9637-4789-a1a4-fe81d314f5de</id>
       <masked>false</masked>
       <name>UserPassword</name>
    </variable>

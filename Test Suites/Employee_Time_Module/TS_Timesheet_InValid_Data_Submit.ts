@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_Employee_PunchIn</name>
+   <name>TS_Timesheet_InValid_Data_Submit</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,15 +10,15 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>3c1ade2b-7954-4da6-99cd-d210eaea8ffa</testSuiteGuid>
+   <testSuiteGuid>84e528ed-17b9-4f15-937e-2162db899a9c</testSuiteGuid>
    <testCaseLink>
-      <guid>1373e79d-2edf-4cb0-a8c7-5e037099a866</guid>
+      <guid>01d20751-4946-43cb-8ad7-11766180a9c0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Employee_Time_Module/Employee_PunchInOut/TC_Employee_PunchIn</testCaseId>
+      <testCaseId>Test Cases/Employee_Time_Module/Employee_Timesheet/TC-9767047-Timesheet-With-InValid-on-Required-Field</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>40d92287-6025-43b0-a9b8-91699b6ec255</id>
+         <id>9900f221-6f72-4d62-9459-69adf0f4f746</id>
          <iterationEntity>
             <iterationType>RANGE</iterationType>
             <value>6-10</value>
@@ -27,16 +27,16 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>40d92287-6025-43b0-a9b8-91699b6ec255</testDataLinkId>
+         <testDataLinkId>9900f221-6f72-4d62-9459-69adf0f4f746</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>UserName</value>
-         <variableId>de2352a1-7c6b-4574-a33f-f8bbe7137023</variableId>
+         <variableId>d7a2d0d7-3471-43d5-9b1e-56419e2ce140</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>40d92287-6025-43b0-a9b8-91699b6ec255</testDataLinkId>
+         <testDataLinkId>9900f221-6f72-4d62-9459-69adf0f4f746</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Password</value>
-         <variableId>84993bd9-c10a-45b8-8be4-1737774aa938</variableId>
+         <variableId>c8ef9dd2-9637-4789-a1a4-fe81d314f5de</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

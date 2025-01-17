@@ -138,7 +138,43 @@ for (int i = 1; i <= 5; i++) {
     if (isHoursFilled) {
         WebUI.comment("Filling input box $i with 8 hours...")
 
-        WebUI.setText(inputBox, '8')
+        WebUI.setText(inputBox, '33')
+		
+		//////
+		
+		
+		// Wait for 1 second
+		WebUI.comment('Waiting for 1 second to allow validation')
+		
+		WebUI.delay(1)
+		
+		// Check if the error message is present
+		WebUI.comment('Checking if the invalid data error message is present')
+		
+		boolean isElementPresent = WebUI.verifyElementPresent(findTestObject('Object Repository/Employee_Time_Module/Timesheet-InValid-Data/Page_OrangeHRM/span_Should Be Less Than 24 and in HHMM or _0b674a'),
+			0, FailureHandling.OPTIONAL)
+		
+		if (isElementPresent) {
+			// If element exists, get the error message
+			WebUI.comment('Error message found, fetching its text')
+		
+			String text = WebUI.getText(findTestObject('Object Repository/Employee_Time_Module/Timesheet-InValid-Data/Page_OrangeHRM/span_Should Be Less Than 24 and in HHMM or _0b674a'),
+				FailureHandling.OPTIONAL)
+		
+			KeywordUtil.markFailed('Invalid data error message EXIST')
+		
+			println('Invalid data error message: ' + text // If element does not exist, log the absence
+				)
+		} else {
+			WebUI.comment('No error message found')
+		
+			KeywordUtil.markPassed('Invalid data message not exist.')
+		
+			println('Invalid data message not exist.')
+		}
+		
+		
+		//////
     }
 }
 

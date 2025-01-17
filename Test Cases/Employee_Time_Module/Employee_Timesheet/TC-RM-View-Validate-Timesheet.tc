@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-RM-View-Validate-Timesheet</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aff2fb79-a443-49b2-bc93-3bc7a16fda1a</testCaseGuid>
+</TestCaseEntity>

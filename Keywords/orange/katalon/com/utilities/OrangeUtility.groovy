@@ -21,24 +21,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 class OrangeUtility {
 
 	/**
-	 * Validating if the text of a web element matches the expected value.
-	 * @param testObject - The Test Object of the web element
-	 * @param expectedText - The expected text value
-	 * @return boolean - true if the text matches, false otherwise
-	 */
-	@Keyword
-	def boolean validateText(TestObject testObject, String expectedText) {
-		String actualText = WebUI.getText(testObject)
-		if (actualText == expectedText) {
-			WebUI.comment("Validation passed: Text matches '${expectedText}'")
-			return true
-		} else {
-			WebUI.comment("Validation failed: Expected '${expectedText}', but found '${actualText}'")
-			return false
-		}
-	}
-
-	/**
 	 * Validating if the text of a web element not empty.
 	 * @param testObject - The Test Object of the web element
 	 * @return boolean - true if the text matches, false otherwise
@@ -54,6 +36,26 @@ class OrangeUtility {
 		} else {
 			WebUI.comment("Validation passed: Text has no value '${actualText}'")
 			return true
+		}
+	}
+	
+	/**
+	 * Validating if the text of a web element matches the expected value.
+	 * @param testObject - The Test Object of the web element
+	 * @param expectedText - The expected text value
+	 * @return boolean - true if the text matches, false otherwise
+	 */
+	@Keyword
+	def boolean validateText(TestObject testObject, String expectedText) {
+
+		String actualText = WebUI.getAttribute(testObject, 'value')
+
+		if (actualText == expectedText) {
+			WebUI.comment("Validation passed: Text matches '${expectedText}'")
+			return true
+		} else {
+			WebUI.comment("Validation failed: Expected '${expectedText}', but found '${actualText}'")
+			return false
 		}
 	}
 }

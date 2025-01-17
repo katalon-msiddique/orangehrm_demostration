@@ -126,7 +126,9 @@ if (isElementPresent) {
         FailureHandling.OPTIONAL)
 
     KeywordUtil.markFailed('Invalid data error message EXIST')
-
+	WebUI.delay(2)
+	WebUI.closeBrowser()
+	
     println('Invalid data error message: ' + text // If element does not exist, log the absence
         )
 } else {
