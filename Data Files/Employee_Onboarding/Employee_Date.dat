@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>40ed79b4-e144-42f5-bb6e-1ec483c57e55</dataFileGUID>
-   <dataSourceUrl>/Users/mahtabsiddique/Documents/development/python-dev/orangeHRM/Utility/data/EmployeeData_Sample_01.xlsx</dataSourceUrl>
+   <dataSourceUrl>/Users/mahtabsiddique/git/orangehrm_demostration/DataSources/EmployeeDatas.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
