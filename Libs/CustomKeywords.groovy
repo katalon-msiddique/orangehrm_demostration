@@ -22,23 +22,14 @@ import org.apache.poi.ss.usermodel.Cell
 import org.apache.poi.ss.usermodel.Row
 
 
- /**
-	 * Validating if the text of a web element not empty.
-	 * @param testObject - The Test Object of the web element
-	 * @return boolean - true if the text matches, false otherwise
-	 */ 
+
 def static "orange.katalon.com.utilities.OrangeUtility.isTextEmpty"(
     	TestObject testObject	) {
     (new orange.katalon.com.utilities.OrangeUtility()).isTextEmpty(
         	testObject)
 }
 
- /**
-	 * Validating if the text of a web element matches the expected value.
-	 * @param testObject - The Test Object of the web element
-	 * @param expectedText - The expected text value
-	 * @return boolean - true if the text matches, false otherwise
-	 */ 
+
 def static "orange.katalon.com.utilities.OrangeUtility.validateText"(
     	TestObject testObject	
      , 	String expectedText	) {

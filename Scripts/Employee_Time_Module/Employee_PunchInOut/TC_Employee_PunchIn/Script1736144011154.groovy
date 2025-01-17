@@ -41,3 +41,5 @@ WebUI.click(findTestObject('Object Repository/Employee_Time_Module/PunchIn/Page_
 
 WebUI.delay(2)
 
+WebUI.closeBrowser()
+

@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/1j/l6215wsx1tb1nnyyg3vv0xxm0000gn/T/Katalon/Test Cases/Employee_Time_Module/Employee_Timesheet/View/20250117_180611/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/1j/l6215wsx1tb1nnyyg3vv0xxm0000gn/T/Katalon/Test Cases/Employee_Time_Module/Employee_PunchInOut/TC_Employee_PunchIn/20250117_220732/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Employee_Time_Module/Employee_Timesheet/View', new TestCaseBinding('Test Cases/Employee_Time_Module/Employee_Timesheet/View',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Employee_Time_Module/Employee_PunchInOut/TC_Employee_PunchIn', new TestCaseBinding('Test Cases/Employee_Time_Module/Employee_PunchInOut/TC_Employee_PunchIn',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
