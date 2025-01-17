@@ -38,7 +38,7 @@ class OrangeUtility {
 			return true
 		}
 	}
-	
+
 	/**
 	 * Validating if the text of a web element matches the expected value.
 	 * @param testObject - The Test Object of the web element
