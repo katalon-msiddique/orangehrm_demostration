@@ -5,7 +5,7 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
@@ -20,7 +20,7 @@
          <combinationType>ONE</combinationType>
          <id>7c8c1f41-ed14-441b-82c7-0855152e3b90</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
+            <iterationType>ALL</iterationType>
             <value>1-5</value>
          </iterationEntity>
          <testDataId>Data Files/Employee_Onboarding/Employee_Date</testDataId>
