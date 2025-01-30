@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Valid_Timesheet_Entry</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>58fa3634-dab2-43bc-aaba-e19a84e8a81d</testCaseGuid>
-</TestCaseEntity>

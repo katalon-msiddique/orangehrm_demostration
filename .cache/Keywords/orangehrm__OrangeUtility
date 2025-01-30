@@ -1,0 +1,62 @@
+{
+  "keywordFileContentHash": "E87568F76337B5A28E515D1942888FFA",
+  "keywordClasses": [
+    {
+      "name": "orangehrm.OrangeUtility",
+      "keywordMethods": [
+        {
+          "name": "isTextEmpty",
+          "parameters": [
+            {
+              "name": "testObject",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Validating if the text of a web element not empty.\n\t * @param testObject - The Test Object of the web element\n\t * @return boolean - true if the text matches, false otherwise\n\t */"
+        },
+        {
+          "name": "validateText",
+          "parameters": [
+            {
+              "name": "testObject",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "expectedText",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Validating if the text of a web element matches the expected value.\n\t * @param testObject - The Test Object of the web element\n\t * @param expectedText - The expected text value\n\t * @return boolean - true if the text matches, false otherwise\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
