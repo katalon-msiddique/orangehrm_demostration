@@ -36,7 +36,7 @@ import string
 faker = Faker()
 
 # Set the output file path
-file_path = "/Users/mahtabsiddique/Documents/development/python-dev/orangeHRM/Utility/data/Sample/EmployeeDatas.csv"
+file_path = "{YourPath}/EmployeeDatas.csv"
 
 # List of predefined data for specific fields
 job_titles = [
