@@ -7,7 +7,7 @@ from faker import Faker
 faker = Faker()
 
 # Set the output file path
-file_path = "/Users/mahtabsiddique/Documents/development/python-dev/orangeHRM/Utility/data/Sample/Project_Data.csv"
+file_path = "{YourPath}/Project_Data.csv"
 
 # List of predefined company names
 company_names = ["Accenture", "GE Digital", "Nasdaq", "NVIDIA", "RedBull", "Vodafone"]
